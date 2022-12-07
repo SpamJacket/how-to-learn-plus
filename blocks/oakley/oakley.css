@@ -1,0 +1,9 @@
+.oakley {
+  box-sizing: border-box;
+  min-height: 364px;
+  padding-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #f2f2f2;
+}
