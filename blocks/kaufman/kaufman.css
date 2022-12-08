@@ -1,13 +1,12 @@
 .kaufman {
   box-sizing: border-box;
   width: 100%;
-  min-height: 710px;
+  padding: 90px 0;
   background-color: #1f1f1f;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
   position: relative;
   overflow: hidden;
 }

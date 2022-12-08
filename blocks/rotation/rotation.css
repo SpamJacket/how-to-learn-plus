@@ -8,6 +8,5 @@
 }
 
 .rotation {
-  box-sizing: border-box;
   animation: rotation 20s linear infinite;
 }
