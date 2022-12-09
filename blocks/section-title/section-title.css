@@ -1,5 +1,6 @@
 .section-title {
   box-sizing: border-box;
+  width: 60%;
   margin: 0;
   line-height: 1.15;
   font-size: 60px;
