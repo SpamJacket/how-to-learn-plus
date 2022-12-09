@@ -7,7 +7,7 @@
   <meta name="keywords" content="HTML5, CSS, обучение">
   <meta name="author" content="Александр Сватков">
 
-  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 
   <title>Научиться учиться</title>
 </head>
@@ -32,7 +32,7 @@
 
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
 
           <div class="two-columns__main-text">
@@ -40,16 +40,14 @@
             <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
-        </div>
+        </article>
       </section>
 
 
       <section class="techniques">
-        <div class="heading">
-          <h2 class="section-title">Техники обучения</h2>
+        <h2 class="section-title">Техники обучения</h2>
 
-          <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
-        </div>
+        <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
 
         <ul class="cards">
           <li class="cards__item">
@@ -86,28 +84,30 @@
 
 
       <section class="video">
-        <div class="heading">
-          <h2 class="section-title">Видео нa TED</h2>
+        <h2 class="section-title">Видео нa TED</h2>
 
-          <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
-        </div>
+        <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
 
-        <div class="video__frames">
-          <iframe class="video__frame" id="ytplayer__master-procrastinator" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+        <ul class="video__iframes">
+          <li>
+            <iframe class="video__iframe" id="ytplayer__master-procrastinator" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          </li>
 
-          <iframe class="video__frame" id="ytplayer__how-to-learn-anything" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-        </div>
+          <li>
+            <iframe class="video__iframe" id="ytplayer__how-to-learn-anything" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
 
 
       <section class="oakley">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли</h2>
 
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
           </div>
-        </div>
+        </article>
       </section>
 
 
@@ -123,11 +123,9 @@
 
 
       <section class="digits">
-        <div class="heading">
-          <h2 class="section-title">Цифры и факты</h2>
+        <h2 class="section-title">Цифры и факты</h2>
 
-          <h3 class="section-subtitle">Про учёбу и мозг</h3>
-        </div>
+        <h3 class="section-subtitle">Про учёбу и мозг</h3>
 
         <ul class="table">
           <li class="table__cell">
@@ -177,13 +175,15 @@
 
       <section class="khan">
         <div class="khan__container">
-          <h3 class="khan__author">Салман Хан</h3>
+          <p class="khan__author">Салман Хан</p>
 
           <h2 class="khan__title">Весь мир — школа</h2>
 
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">
+            <p>Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          </blockquote>
 
-          <h4 class="khan__quote-author">Джордж Лукас</h4>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
 
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
 
@@ -196,11 +196,9 @@
 
 
       <section class="kaufman">
-        <div class="heading">
-          <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
+        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
 
-          <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
-        </div>
+        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
 
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
@@ -254,34 +252,41 @@
           </li>
         </ul>
 
-        <img src="images/kaufman-triangle.svg" alt="Треугольник Кауфмана" class="kaufman__triangle rotation">
+        <div class="kaufman__triangle rotation">
+        </div>
       </section>
 
 
       <section class="resources">
-        <div class="heading">
-          <h2 class="section-title">Полезные ресурсы</h2>
+        <h2 class="section-title">Полезные ресурсы</h2>
 
-          <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
-        </div>
+        <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
 
-        <div class="resources__logo-zone">
-          <a href="#" class="link resources__link">
-            <img src="images/logo/resources-arzamas.svg" alt="Логотип Arzamas" class="resources__logo">
-          </a>
+        <ul class="resources__logo-zone">
+          <li>
+            <a href="#" class="link resources__link">
+              <img src="images/logo/resources-arzamas.svg" alt="Логотип Арзамас" class="resources__logo">
+            </a>
+          </li>
 
-          <a href="#" class="link resources__link">
-            <img src="images/logo/resources-n1.svg" alt="Логотип N+1" class="resources__logo">
-          </a>
+          <li>
+            <a href="#" class="link resources__link">
+              <img src="images/logo/resources-n1.svg" alt="Логотип N+1" class="resources__logo">
+            </a>
+          </li>
 
-          <a href="#" class="link resources__link">
-            <img src="images/logo/resources-strelka.svg" alt="Логотип Strelka" class="resources__logo">
-          </a>
+          <li>
+            <a href="#" class="link resources__link">
+              <img src="images/logo/resources-strelka.svg" alt="Логотип Стрелка" class="resources__logo">
+            </a>
+          </li>
 
-          <a href="#" class="link resources__link">
-            <img src="images/logo/resources-polka.svg" alt="Логотип Полка" class="resources__logo">
-          </a>
-        </div>
+          <li>
+            <a href="#" class="link resources__link">
+              <img src="images/logo/resources-polka.svg" alt="Логотип Полка" class="resources__logo">
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
 
@@ -295,20 +300,20 @@
 
         <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
-          <div class="footer__column-links">
+          <nav class="footer__column-links">
             <a href="#" class="link footer__column-link">Главная</a>
             <a href="#" class="link footer__column-link">Концепция</a>
             <a href="#" class="link footer__column-link">Наставники</a>
-          </div>
+          </nav>
         </div>
 
         <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
-          <div class="footer__column-links">
-            <a href="#" class="link footer__column-link"><img src="images/youtube-icon.svg" alt="Логотип YouTube" class="footer__social-icon">YouTube</a>
-            <a href="#" class="link footer__column-link"><img src="images/vk_color_white.svg" alt="Логотип VK" class="footer__social-icon">ВКонтакте</a>
-            <a href="#" class="link footer__column-link"><img src="images/tiktok-icon.svg" alt="Логотип TikTok" class="footer__social-icon">TikTok</a>
-          </div>
+          <nav class="footer__column-links">
+            <a href="#" class="link footer__column-link"><img src="images/youtube-icon.svg" alt="Логотип Ютуба" class="footer__social-icon">YouTube</a>
+            <a href="#" class="link footer__column-link"><img src="images/vk_color_white.svg" alt="Логотип ВК" class="footer__social-icon">ВКонтакте</a>
+            <a href="#" class="link footer__column-link"><img src="images/tiktok-icon.svg" alt="Логотип ТикТок" class="footer__social-icon">TikTok</a>
+          </nav>
         </div>
       </div>
     </footer>

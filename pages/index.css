@@ -1,7 +1,7 @@
-@import url("../blocks/rotation/rotation.css");
-
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
+
+@import url("../blocks/rotation/rotation.css");
 
 @import url("../blocks/page/page.css");
 
@@ -41,8 +41,8 @@
 @import url("../blocks/cards/__description/cards__description.css");
 
 @import url("../blocks/video/video.css");
-@import url("../blocks/video/__frames/video__frames.css");
-@import url("../blocks/video/__frame/video__frame.css");
+@import url("../blocks/video/__iframes/video__iframes.css");
+@import url("../blocks/video/__iframe/video__iframe.css");
 
 @import url("../blocks/oakley/oakley.css");
 
